@@ -1,0 +1,24 @@
+<resources>
+  <string name="app_name">Inventory Tracker</string>
+  <string name="empty_list_add_product">Add Product</string>
+  <string name="label_button_sale">Sale</string>
+  <string name="hint_product_name">Enter Item name</string>
+  <string name="hint_product_quantity">Enter Item quantity</string>
+  <string name="hint_product_price">Enter price</string>
+  <string name="pick_supplier">Pick a Supplier:</string>
+  <string name="choose_image">Please Enter the Url for the Item Image</string>
+  <string name="product_add_btn">Add Item</string>
+  <string name="err_msg_name_empty">Please enter an Item name</string>
+  <string name="err_msg_name_exists">There is already an Item with that name</string>
+  <string name="err_msg_quantity">Please enter a valid number</string>
+  <string name="err_msg_price">Please enter a valid price</string>
+  <string name="label_button_increse_quantity">Increase Quantity</string>
+  <string name="label_button_decrease_quantity">Decrease Quantity</string>
+  <string name="label_button_order_more">Order more</string>
+  <string name="label_button_delete_product">Delete Product</string>
+  <string name="delete_dialog_title">Delete</string>
+  <string name="delete_dialog_message">Are you sure want to delete :</string>
+  <string name="dialog_answer_yes">Yes</string>
+  <string name="dialog_answer_no">Cancel</string>
+
+</resources>

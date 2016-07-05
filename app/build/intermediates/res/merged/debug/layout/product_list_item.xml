@@ -1,0 +1,53 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listContainer"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/background_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:background="@color/text_background"
+      android:orientation="vertical"
+      android:gravity="center_vertical"
+      android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/productName"
+        android:text="Product Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/productQuantity"
+        android:text="Product Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/productPrice"
+        android:text="Product Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+  </LinearLayout>
+
+  <ImageButton
+      android:id="@+id/saleButton"
+      android:text="@string/label_button_sale"
+      android:src="@drawable/ic_shopping_cart"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+  <ImageView
+      android:id="@+id/productImage"
+      android:scaleType="centerCrop"
+      android:layout_gravity="center"
+      android:layout_marginRight="@dimen/image_right_margin"
+      android:layout_width="@dimen/list_image_width"
+      android:layout_height="@dimen/list_image_height"/>
+
+</LinearLayout>
